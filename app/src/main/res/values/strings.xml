@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name" translatable="false">StoryApp</string>
+
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="upload">Upload</string>
+    <string name="passwordHint">Your Password</string>
+    <string name="emailEmptyError">Type your Email</string>
+    <string name="passwordEmptyError">Type your Password</string>
+    <string name="emailFormatError">Wrong format Email</string>
+    <string name="passwordLengthError">Min. 6 characters</string>
+    <string name="FailureMessage">Failed to get response</string>
+    <string name="wrong_email_password">Wrong email or password</string>
+    <string name="copyright" translatable="false">©2022 AkhmadAldi</string>
+    <string name="permissionDenied">Access Denied</string>
+    <string name="storyCreated">Story created successfully</string>
+    <string name="noDescription">Please fill in your story first</string>
+    <string name="noFile">Please enter a picture first</string>
+
+    <string name="nameEmptyError">Type your Name</string>
+    <string name="EmailError">Email is already taken</string>
+
+    <string name="welcomeDesc">this is a picture of the welcome page</string>
+    <string name="titleWelcomePage">Welcome to the story app Dicoding!</string>
+    <string name="messageWelcomePage">Share your valuable experience while participating in MSIB batch 3 independent campus at Dicoding Indonesia</string>
+
+    <string name="emailHint">Your Email</string>
+    <string name="LoginDesc">this is a picture of the login page</string>
+    <string name="titleLoginPage">Ready to share your story with friends</string>
+    <string name="messageLoginPage">but you have to login first !</string>
+    <string name="alertTitle">Yeayyyy!</string>
+    <string name="alertMessage">You have successfully logged in. Can not wait to share the story?</string>
+    <string name="alertPositive">lets continue</string>
+    <string name="wrongEmailPassword">Wrong email or password</string>
+    <string name="emailDesc">enter your email</string>
+    <string name="passwordDesc">enter your Password</string>
+
+    <string name="RegisterDesc">this is a picture of the Register page</string>
+    <string name="titleSignUpPage">Fill in your details below to register</string>
+    <string name="nameHint">Create your name</string>
+    <string name="emailHintReg">Create your email</string>
+    <string name="passwordHintReg">Create your password</string>
+    <string name="alertMessageRegister">Account has been created! Start login to add your own story.</string>
+    <string name="alertPositiveRegister">continue</string>
+
+    <string name="floatingMainDesc">this is a floating button to get create story</string>
+    <string name="listStories">List Stories</string>
+    <string name="alertTittleLogout">I asked</string>
+    <string name="alertMassageLogout">Are you ready to exit this app</string>
+    <string name="positiveLogout">Yes</string>
+    <string name="negativeLogout">No</string>
+
+    <string name="firstLetter">t</string>
+    <string name="username">User name</string>
+
+    <string name="storyPhotoInDetail">Story photo in detail</string>
+    <string name="Desc">Lorem ipsum dolor sit amet consectetur. Sit venenatis tortor sagittis ut pretium nibh. Venenatis sapien congue laoreet sit diam.</string>
+    <string name="detail_story">Story Details</string>
+    <string name="captureImage">Capture Image</string>
+    <string name="switchCamera">Switch Camera</string>
+    <string name="failedToTakePic">Failed to take a picture</string>
+    <string name="failShowCamera">Failed to show camera.</string>
+
+    <string name="choosePic">Choose a Picture</string>
+    <string name="savedLocation">Saved Location Settings</string>
+    <string name="noLocation">No location</string>
+    <string name="unable">"Unable to resolve host \"story-api.dicoding.dev\": No address associated with hostname"</string>
+    <string name="noPhotos">photos will appear here</string>
+    <string name="cameraDesc">button to take picture with camera</string>
+    <string name="titleGallery">Gallery</string>
+    <string name="titleCamera">Camera</string>
+    <string name="galleryDesc">button to take picture from gallery</string>
+    <string name="addLocation">add location</string>
+    <string name="hintDescription">Your story…</string>
+
+    <string name="mapTittle">Story Map</string>
+    <string name="normalType" >Normal</string>
+    <string name="satelliteType" >Satellite</string>
+    <string name="terrainType" >Terrain</string>
+    <string name="hybrid_type" >Hybrid</string>
+    <string name="maps" >Maps</string>
+    <string name="titleActivityAddLocation" >AddLocationActivity</string>
+    <string name="load_map">LoadMap</string>
+    <string name="mapStyleFailed">Style parsing failed</string>
+    <string name="menuLogout">logout</string>
+    <string name="menuTranslate">Translate</string>
+    <string name="menuLocation">location</string>
+
+    <string name="timeout">Timeout</string>
+    <string name="retry">Retry</string>
+    <string name="storyPhotoInList">Story photo item in list</string>
+    <string name="time">19:02</string>
+    <string name="SplashDescription">this is splash background</string>
+    <string name="create_stories">New Stories</string>
+
+</resources>

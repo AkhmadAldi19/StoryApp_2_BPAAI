@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_action_maps"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_map_24"
+        android:title="@string/menuLocation"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_language"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_g_translate_24"
+        android:title="@string/menuTranslate"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_logout"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_login_24"
+        android:title="@string/menuLogout"
+        app:showAsAction="always" />
+</menu>

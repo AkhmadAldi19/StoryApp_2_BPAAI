@@ -1,0 +1,113 @@
+* utils
+1. utils.DateFormatterTest
+   a. "given correct ISO 8601 format then should format correctly".
+       - Input  : Menerima format dari API sesuai ISO 8601 dalam bentuk String Contohnya 2022-01-24T01:57:36Z.
+       - Output : Format baru dalam bentuk String sesuai dengan TimeZone berbetuk :
+	       - FormatDate = 24 Jan 2022 | 08:57
+	       - FormatTime = 08:57
+
+   b. "given wrong ISO 8601 format then should throw error"
+       - Input  : Menerima format data dan waktu yang tidak sesuai bertipe string
+       - Output : menampilkan pesan error karena format tidak sesuai standar
+
+   c. " given invalid timezone then should throw error "
+       - Input  : Menerima format data timezone yang tidak sesuai bertipe string
+       - Output : menampilkan error karena data timezone tidak valid
+
+2. utils.EmailValidationTest
+   a. "given correct Email format then should return true"
+       - Input  : Menerima email dengan format valid bertipe string
+       - Output : mengembalikan nilai true karena format valid
+
+   b. "given wrong Email format then should return false"
+       - Input  : Menerima email dengan format yang tidak valid bertipe string
+       - Output : Mengembalikan nilai false karena format tidak valid
+
+3. utils.MapsUtilTest
+   a. "given correct Latitude and Longitude range then should return true"
+       - Input  : Menerima data latitude dan longitude bertipe double dalam range yang valid
+       - Output : Mengembalikan nilai true karena latitude dan longitude masih dalam range yang valid
+
+   b.  "given wrong Latitude or Longitude format then should return false"
+       - Input  :  * Menerima data bertipe double latitude dan data longitude di luar range.
+                   * Menerima data latitude dalam range namun longitude tidak.
+                   * Menerima data latitude di luar range dan longitude dalam range.
+                   * menerima data latitude dan longitude yang tertukar.
+       - Output : Mengembalikan nilai false karena latitude dan longitude memiliki nilai di luar range.
+
+
+* ui
+1. ui.create.CreateViewModelTest
+   a. " when user upload Image should response not null and Return Success"
+      - memastikan method uploadImage di repository terpanggil
+      - memastikan response tidak null
+      - Memastikan mengembalikan ResultRespone.Success
+   
+   b. "when user upload image failed should response not null and Return Error"
+      - memastikan method uploadImage di repository terpanggil
+      - memastikan response tidak null
+      - Memastikan mengembalikan ResultRespone.Error
+
+   c. "when get account token not null and return success"
+      - memastikan method getToken di user preference terpanggil
+      - memastikan data yang diambil tidak null
+      - memastikan data yang diambil dari datastore sesuai
+
+2. ui.login.LoginViewModelTest 
+   a. "when User Login should response not null return Success"
+      - memastikan method login di repository terpanggil
+      - memastikan response yang didapat tidak null
+      - Memastikan mengembalikan ResultRespone.Success
+
+   b. "when User Login failed should response not null return Error"
+      - memastikan method login di repository terpanggil
+      - memastikan kembalian response yang didapat tidak null
+      - Memastikan mengembalikan ResultRespone.Error
+
+3. ui.main.MainViewModelTest
+   a. "when Get paging Story Should Not Null and Return Success"
+      - Memastikan data yang diambil tidak null.
+      - memastikan jumlah data sesuai dengan yang didadapatkan
+      - memastikan data yang diambil menggunakan paging didapatkan dengan benar
+
+   b. "when get account token not null and return success"
+      - memastikan method getToken di user preference terpanggil
+      - memastikan data yang diambil tidak null
+      - memastikan data yang diambil dari datastore sesuai
+
+   c. "when logout from account and delete data account ensure logout method called"
+      - memastikan method menghapus akun di user preference terpanggil
+
+4. ui.map.MapsViewModelTest
+   a. "when Get Story Should Not Null and Return Success"
+      - memastikan method getStoryLocation di story repository terpanggil
+      - memastikan data yang diambil tidak null
+      - Memastikan mengembalikan ResultRespone.Success
+   
+   b. "when Get Story failed Should Not Null and Return Error"
+       - memastikan method getStoryLocation di story repository terpanggil
+       - memastikan data diambil tidak bernilai null
+       - Memastikan mengembalikan ResultRespone.Error
+
+   c. "when get account token not null and return success"
+      - memastikan method getToken di user preference terpanggil
+      - memastikan data yang diambil tidak null
+      - memastikan data yang diambil dari datastore sesuai
+
+5. ui.register.RegisterViewModelTest
+   a. "when user register success should response not null and Return Success"
+      - memastikan method register di repository terpanggil
+      - Memastikan data yang diambil tidak null
+      - Memastikan mengembalikan ResultRespone.Success
+
+   b. " when User Register failed should Not Null and return Error "
+      - memastikan method register di repository terpanggil
+      - memastikan kembalian response yang didapat tidak null
+      - Memastikan mengembalikan ResultRespone.Error
+	
+
+
+	
+
+
+

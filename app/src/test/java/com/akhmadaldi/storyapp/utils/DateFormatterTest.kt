@@ -1,0 +1,40 @@
+package com.akhmadaldi.storyapp.utils
+
+import org.junit.Assert.*
+import org.junit.Test
+import java.time.format.DateTimeParseException
+import java.time.zone.ZoneRulesException
+
+class DateFormatterTest {
+    @Test
+    fun `given correct ISO 8601 format then should format correctly`() {
+        val currentDate = "2022-02-02T10:10:10Z"
+        assertEquals("02 Feb 2022 | 17:10", DateFormatter.formatDate(currentDate, "Asia/Jakarta"))
+        assertEquals("02 Feb 2022 | 18:10", DateFormatter.formatDate(currentDate, "Asia/Makassar"))
+        assertEquals("02 Feb 2022 | 19:10", DateFormatter.formatDate(currentDate, "Asia/Jayapura"))
+
+        assertEquals("17:10", DateFormatter.formatTime(currentDate, "Asia/Jakarta"))
+        assertEquals("18:10", DateFormatter.formatTime(currentDate, "Asia/Makassar"))
+        assertEquals("19:10", DateFormatter.formatTime(currentDate, "Asia/Jayapura"))
+
+    }
+
+    @Test
+    fun `given wrong ISO 8601 format then should throw error`() {
+        val wrongFormat = "2022-02-02T10:10"
+        assertThrows(DateTimeParseException::class.java) {
+            DateFormatter.formatDate(wrongFormat, "Asia/Jakarta")
+            DateFormatter.formatTime(wrongFormat, "Asia/Jakarta")
+        }
+    }
+
+    @Test
+    fun `given invalid timezone then should throw error`() {
+        val wrongFormat = "2022-02-02T10:10:10Z"
+        assertThrows(ZoneRulesException::class.java) {
+            DateFormatter.formatDate(wrongFormat, "Asia/Bandung")
+            DateFormatter.formatTime(wrongFormat, "Asia/Bandung")
+        }
+    }
+
+}

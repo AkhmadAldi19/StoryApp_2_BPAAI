@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">StoryApp</string>
+
+    <string name="login">Masuk</string>
+    <string name="register">Daftar</string>
+    <string name="upload">Unggah</string>
+    <string name="passwordHint">Kata sandi</string>
+    <string name="emailEmptyError">Ketik Email Anda</string>
+    <string name="passwordEmptyError">Ketik Kata Sandi Anda</string>
+    <string name="emailFormatError">Format email salah</string>
+    <string name="passwordLengthError">Min. 6 karakter</string>
+    <string name="FailureMessage">Gagal mendapatkan tanggapan</string>
+    <string name="wrong_email_password">Email atau password salah</string>
+    <string name="copyright" translatable="false">©2022 AkhmadAldi</string>
+    <string name="permissionDenied">Akses ditolak</string>
+    <string name="storyCreated">Cerita berhasil dibuat</string>
+    <string name="noDescription">Silakan isi ceritamu terlebih dahulu</string>
+    <string name="noFile">Silahkan Masukkan gambar terlebih dahulu</string>
+
+    <string name="nameEmptyError">Ketik Nama Anda</string>
+    <string name="EmailError">email sudah ada yang punya</string>
+
+    <string name="welcomeDesc">ini adalah gambar halaman selamat datang</string>
+    <string name="titleWelcomePage">Selamat datang di aplikasi cerita Dicoding!</string>
+    <string name="messageWelcomePage">Bagikan pengalaman berharga Anda selama mengikuti MSIB batch 3 independent campus di Dicoding Indonesia</string>
+
+    <string name="emailHint">Email</string>
+    <string name="LoginDesc">ini adalah gambar halaman login</string>
+    <string name="titleLoginPage">Siap berbagi cerita dengan teman-teman</string>
+    <string name="messageLoginPage">tapi harus login dulu!</string>
+    <string name="alertTitle">Yeayyyy!</string>
+    <string name="alertMessage">You have successfully logged in. Can not wait to share the story?</string>
+    <string name="alertPositive">Ayo lanjutkan</string>
+    <string name="wrongEmailPassword">Wrong email or password</string>
+    <string name="emailDesc">Masukkan email Anda</string>
+    <string name="passwordDesc">masukkan Kata Sandi Anda</string>
+
+    <string name="RegisterDesc">ini adalah gambar halaman Daftar</string>
+    <string name="titleSignUpPage">Isi data Anda di bawah ini untuk mendaftar</string>
+    <string name="nameHint">Buat nama Anda</string>
+    <string name="emailHintReg">Buat Email Anda</string>
+    <string name="passwordHintReg">Buat kata sandimu</string>
+    <string name="alertMessageRegister">Account has been created! Start login to add your own story.</string>
+    <string name="alertPositiveRegister">melanjutkan</string>
+
+    <string name="floatingMainDesc">ini adalah tombol mengambang untuk membuat cerita</string>
+    <string name="listStories">Daftar Cerita</string>
+    <string name="alertTittleLogout">saya bertanya</string>
+    <string name="alertMassageLogout">Apakah Anda siap untuk keluar dari aplikasi ini</string>
+    <string name="positiveLogout">Ya</string>
+    <string name="negativeLogout">Tidak</string>
+
+    <string name="firstLetter">t</string>
+    <string name="username">Nama belakang</string>
+
+    <string name="storyPhotoInDetail">Foto cerita secara detail</string>
+    <string name="Desc">Lorem ipsum dolor sit amet consectetur. Sit venenatis tortor sagittis ut pretium nibh. Venenatis sapien congue laoreet sit diam.</string>
+    <string name="detail_story">Detail cerita</string>
+    <string name="captureImage">Tangkap Gambar</string>
+    <string name="switchCamera">Beralih Kamera</string>
+    <string name="failedToTakePic">Gagal mengambil gambar</string>
+    <string name="failShowCamera">Gagal menampilkan kamera.</string>
+
+    <string name="choosePic">Pilih Gambar</string>
+    <string name="savedLocation">Setelan Lokasi Tersimpan</string>
+    <string name="noLocation">Tidak ada lokasi</string>
+    <string name="unable">"Tidak dapat menyelesaikan host \"story-api.dicoding.dev\": Tidak ada alamat yang terkait dengan nama host"</string>
+    <string name="noPhotos">foto akan muncul di sini</string>
+    <string name="cameraDesc">tombol untuk mengambil gambar dengan kamera</string>
+    <string name="titleGallery">Galeri</string>
+    <string name="titleCamera">Kamera</string>
+    <string name="galleryDesc">tombol untuk mengambil gambar dari galeri</string>
+    <string name="addLocation">menambahkan lokasi</string>
+    <string name="hintDescription">Tuliskan Ceritamu</string>
+
+    <string name="mapTittle">Peta Cerita</string>
+    <string name="normalType" >Normal</string>
+    <string name="satelliteType" >Satellite</string>
+    <string name="terrainType" >Medan</string>
+    <string name="hybrid_type">Hibrida</string>
+    <string name="maps">Map</string>
+    <string name="titleActivityAddLocation">Tambahkan Aktivitas Lokasi</string>
+    <string name="load_map">LoadMap</string>
+    <string name="mapStyleFailed">Penguraian gaya gagal</string>
+    <string name="menuLogout">keluar</string>
+    <string name="menuTranslate">Terjemahan</string>
+    <string name="menuLocation">lokasi</string>
+
+    <string name="timeout">Waktu habis</string>
+    <string name="retry">Mencoba kembali</string>
+    <string name="storyPhotoInList">Story photo item in list</string>
+
+    <string name="time">19:02</string>
+    <string name="SplashDescription">ini adalah latar belakang splash</string>
+
+    <string name="create_stories">Story Baru</string>
+
+</resources>
